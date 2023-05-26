@@ -1,6 +1,11 @@
+<script lang="ts">
+	throw new Error('This is an error in the about page');
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
+
 </svelte:head>
 
 <div class="text-column">
